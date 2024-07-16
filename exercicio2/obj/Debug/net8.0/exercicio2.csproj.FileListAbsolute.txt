@@ -1,0 +1,14 @@
+/home/murilo/Repositórios/todoList/exercicio2/bin/Debug/net8.0/exercicio2
+/home/murilo/Repositórios/todoList/exercicio2/bin/Debug/net8.0/exercicio2.deps.json
+/home/murilo/Repositórios/todoList/exercicio2/bin/Debug/net8.0/exercicio2.runtimeconfig.json
+/home/murilo/Repositórios/todoList/exercicio2/bin/Debug/net8.0/exercicio2.dll
+/home/murilo/Repositórios/todoList/exercicio2/bin/Debug/net8.0/exercicio2.pdb
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.GeneratedMSBuildEditorConfig.editorconfig
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.AssemblyInfoInputs.cache
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.AssemblyInfo.cs
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.csproj.CoreCompileInputs.cache
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.dll
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/refint/exercicio2.dll
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.pdb
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/exercicio2.genruntimeconfig.cache
+/home/murilo/Repositórios/todoList/exercicio2/obj/Debug/net8.0/ref/exercicio2.dll

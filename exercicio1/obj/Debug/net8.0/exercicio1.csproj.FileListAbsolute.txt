@@ -12,3 +12,4 @@
 /home/murilo/Repositórios/todoList/exercicio1/obj/Debug/net8.0/exercicio1.pdb
 /home/murilo/Repositórios/todoList/exercicio1/obj/Debug/net8.0/exercicio1.genruntimeconfig.cache
 /home/murilo/Repositórios/todoList/exercicio1/obj/Debug/net8.0/ref/exercicio1.dll
+/home/murilo/Repositórios/todoList/exercicio1/obj/Debug/net8.0/exercicio1.sourcelink.json

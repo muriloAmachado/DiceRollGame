@@ -1,6 +1,6 @@
 ﻿string userChoice;
 
-List<string> todoList = new List<string> {"Teste", "blablabla"};
+List<string> todoList = new List<string> {};
 
 do{
 Console.WriteLine("Escolha a opção:");
@@ -29,7 +29,10 @@ void selectionMenu(string option){
             addNewTask(todoList);
             break;       
         case "R":
-            Console.WriteLine("Qual o número da tarefa que será excluída?");
+            if(todoList.Count() == 0) {
+                Console.WriteLine("A lista não possui um item para ser removido.");
+                return;
+            }
             removeTask(todoList);
             break;
         case "S":
@@ -50,7 +53,8 @@ void printTodoList(List<string> itensList){
 }
 
 void addNewTask(List<string> itensList){
-    var newTask = Console.ReadLine();
+    
+    var newTask = Console.ReadLine() ?? "";
 
     if(!taskExists(newTask, itensList)){
         itensList.Add(newTask);
@@ -62,21 +66,35 @@ void addNewTask(List<string> itensList){
 }
 
 bool taskExists(string newTask, List<string> itensList){
-    bool todoListContainsNewTask = itensList.Contains(newTask);
+    bool todoListContainsNewTask = false;
+
+    foreach(var task in itensList){
+        if(task.ToUpper() == newTask.ToUpper()){
+            todoListContainsNewTask = true;
+        }
+    }
+
     return todoListContainsNewTask;
 }
 
 void removeTask(List<string> itensList){
 
+    Console.WriteLine("Qual o número da tarefa que será excluída?");
+    
     printTodoList(itensList);
     var userInput = Console.ReadLine();
 
     if(int.TryParse(userInput, out int index)){
-        itensList.RemoveAt(index);
+
+            if(index >= itensList.Count()){
+                Console.WriteLine("A lista não possui um item que corresponda ao valor informado");
+            }
+            else{
+                itensList.RemoveAt(index);
+                printTodoList(itensList);
+            }
     }
     else{
-        Console.WriteLine("A lista não possui um item que corresponda ao valor informado");
+        Console.WriteLine("Entrada inválida!!");
     }
-
-    printTodoList(itensList);
 }

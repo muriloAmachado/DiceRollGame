@@ -58,6 +58,8 @@ void addNewTask(List<string> itensList){
 
     if(!taskExists(newTask, itensList)){
         itensList.Add(newTask);
+        printTodoList(itensList);
+        Console.WriteLine();
         Console.WriteLine("Tarefa cadastrada com sucesso.");
     }
     else{
@@ -66,15 +68,12 @@ void addNewTask(List<string> itensList){
 }
 
 bool taskExists(string newTask, List<string> itensList){
-    bool todoListContainsNewTask = false;
-
     foreach(var task in itensList){
         if(task.ToUpper() == newTask.ToUpper()){
-            todoListContainsNewTask = true;
+            return true;
         }
     }
-
-    return todoListContainsNewTask;
+    return false;
 }
 
 void removeTask(List<string> itensList){
@@ -85,7 +84,6 @@ void removeTask(List<string> itensList){
     var userInput = Console.ReadLine();
 
     if(int.TryParse(userInput, out int index)){
-
             if(index >= itensList.Count()){
                 Console.WriteLine("A lista não possui um item que corresponda ao valor informado");
             }

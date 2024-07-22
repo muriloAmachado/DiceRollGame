@@ -1,0 +1,15 @@
+/home/murilo/Repositórios/todoList/modulo2/bin/Debug/net8.0/modulo2
+/home/murilo/Repositórios/todoList/modulo2/bin/Debug/net8.0/modulo2.deps.json
+/home/murilo/Repositórios/todoList/modulo2/bin/Debug/net8.0/modulo2.runtimeconfig.json
+/home/murilo/Repositórios/todoList/modulo2/bin/Debug/net8.0/modulo2.dll
+/home/murilo/Repositórios/todoList/modulo2/bin/Debug/net8.0/modulo2.pdb
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.GeneratedMSBuildEditorConfig.editorconfig
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.AssemblyInfoInputs.cache
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.AssemblyInfo.cs
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.csproj.CoreCompileInputs.cache
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.sourcelink.json
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.dll
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/refint/modulo2.dll
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.pdb
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/modulo2.genruntimeconfig.cache
+/home/murilo/Repositórios/todoList/modulo2/obj/Debug/net8.0/ref/modulo2.dll

@@ -4,7 +4,6 @@ List<string> todoList = new List<string> {};
 
 do{
 Console.WriteLine("Escolha a opção:");
-
 Console.WriteLine();
 Console.WriteLine("[V]izualisar as tarefas");
 Console.WriteLine("[A]dicionar tarefa");
@@ -53,7 +52,7 @@ void printTodoList(List<string> itensList){
 }
 
 void addNewTask(List<string> itensList){
-    
+
     var newTask = Console.ReadLine() ?? "";
 
     if(!taskExists(newTask, itensList)){

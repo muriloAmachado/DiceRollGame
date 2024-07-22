@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // Se tiver alterado as estruturas de destino, certifique-se de atualizar o caminho do programa.
-            "program": "${workspaceFolder}/exercicio1/bin/Debug/net8.0/exercicio1.dll",
+            "program": "${workspaceFolder}/modulo2/bin/Debug/net8.0/modulo2.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/exercicio1",
+            "cwd": "${workspaceFolder}/modulo2",
             // Para obter mais informações sobre o campo \"console\", confira https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

@@ -1,0 +1,15 @@
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.AssemblyInfoInputs.cache
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.AssemblyInfo.cs
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.csproj.CoreCompileInputs.cache
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.sourcelink.json
+/home/murilo/Repositórios/todoList/DiceRollGame/bin/Debug/net8.0/DiceRollGame
+/home/murilo/Repositórios/todoList/DiceRollGame/bin/Debug/net8.0/DiceRollGame.deps.json
+/home/murilo/Repositórios/todoList/DiceRollGame/bin/Debug/net8.0/DiceRollGame.runtimeconfig.json
+/home/murilo/Repositórios/todoList/DiceRollGame/bin/Debug/net8.0/DiceRollGame.dll
+/home/murilo/Repositórios/todoList/DiceRollGame/bin/Debug/net8.0/DiceRollGame.pdb
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.dll
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/refint/DiceRollGame.dll
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.pdb
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/DiceRollGame.genruntimeconfig.cache
+/home/murilo/Repositórios/todoList/DiceRollGame/obj/Debug/net8.0/ref/DiceRollGame.dll

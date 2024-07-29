@@ -1,38 +1,50 @@
 class NewGame{
     private int[] userInputColection;
-    private readonly int _randomNumber;
-    private int attempts; 
-    private bool endGame;
+    public readonly int _randomNumber;
+    private int tries;
+    private int _gameStatus;
     public NewGame(){
         userInputColection = new int[3];
-        attempts = 0;
-        endGame = false;
+        tries = 0;
+        _gameStatus = (int)gameStatus.CONTINUE;
         _randomNumber = new RandomNumber(new Random()).newNumber();
     }
-    public void ReadInput(string userInput){
+
+    public void Play(){
+        do{
+            VerifyingTries();
+
+            this.ReadInput();
+
+        }while(this.gameResult() != 3);
+    }
+
+    public void ReadInput(){
+
+        Console.WriteLine("Digite um número: ");
+        var userInput = Console.ReadLine() ?? "";
+
         var newAttempt = new CheckingInput();
-
-        if(int.TryParse(userInput, out int number)){
-            if(newAttempt.IsValidInput(number)){
-                this.RecordNewAttempt(number, attempts, new Result().valueCompaire(number, _randomNumber));
-            }
-            else Console.WriteLine(newAttempt.InvalidInput(userInput));
-        }
-        else{
-            Console.WriteLine(newAttempt.InvalidInput(userInput));
-        }
-    }
-    public void RecordNewAttempt(int newUserNumber, int attempts, bool result){
-        userInputColection[attempts] = newUserNumber;
-        endGame = result;
-        this.attempts++;
+        newAttempt.EvaluatingInput(userInput, this);
     }
 
-    public bool gameResult(){
-        return endGame;
+    public void VerifyingTries(){
+        if(this.tries == 3){
+            new Result().ResultMessage(this);
+        }
+    }
+
+    public void RecordNewTrie(int newUserNumber, int result){
+        userInputColection[this.tries] = newUserNumber;
+        _gameStatus = result;
+        this.tries++;
+    }
+
+    public int gameResult(){
+        return _gameStatus;
     }
 
     public int Attempts(){
-        return attempts;
+        return tries;
     }
 }
